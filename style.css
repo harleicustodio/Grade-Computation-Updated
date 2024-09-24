@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Bitter", sans-serif;
+    font-weight: 700;
+}
+body {
+    font-family: "Bitter", sans-serif;
+    background-image: url('pink.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ca145a;
+}
+
+.container {
+    background-color: #ff006a27;   
+    backdrop-filter: blur(5px);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    flex-flow: row nowrap;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff7ea9;
+    border-radius: 4px;
+    background-color: #ffadc8;
+    color: #df1864;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d30051;
+    color: #ECDFCC;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #f3347d;
+    transform: scale(1.2) translateY(-2px);
+}
+
+.hidden {
+    display: none;
+}
+
+#results p {
+    font-size: 20px;
+    margin: 5px 0;
+}
